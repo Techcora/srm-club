@@ -1,25 +1,27 @@
 import type { Route } from "./+types/home";
-import { Navbar } from "../components/landing/Navbar";
-import { Hero } from "../components/landing/Hero";
-import { Identity } from "../components/landing/Identity";
-import { EntryFunnel } from "../components/landing/EntryFunnel";
-import { Tracks } from "../components/landing/Tracks";
-import { TierSystem } from "../components/landing/TierSystem";
-import { ScoringSystem } from "../components/landing/ScoringSystem";
-import { WorkSystem } from "../components/landing/WorkSystem";
-import { Culture } from "../components/landing/Culture";
-import { Financials } from "../components/landing/Financials";
-import { Incentives } from "../components/landing/Incentives";
-import { Outcomes } from "../components/landing/Outcomes";
-import { CTA } from "../components/landing/CTA";
+import { Navbar } from "../components/landing-v3/Navbar";
+import { Hero } from "../components/landing-v3/Hero";
+import { Problem } from "../components/landing-v3/Problem";
+import { Mission } from "../components/landing-v3/Mission";
+import { WhatWeDo } from "../components/landing-v3/WhatWeDo";
+import { Tracks } from "../components/landing-v3/Tracks";
+import { StudentOutcomes } from "../components/landing-v3/StudentOutcomes";
+import { TechcoraPartnership } from "../components/landing-v3/TechcoraPartnership";
+import { HowWeWork } from "../components/landing-v3/HowWeWork";
+import { Governance } from "../components/landing-v3/Governance";
+import { FacultyAdvisor } from "../components/landing-v3/FacultyAdvisor";
+import { Contact } from "../components/landing-v3/Contact";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Tech Visionary Knights SRM — Build. Ship. Lead. | SRM IST" },
+    {
+      title:
+        "Tech Visionary Knights SRM — Preparing Students for the AI Era | SRM IST",
+    },
     {
       name: "description",
       content:
-        "An execution-driven talent forge at SRM Institute of Science and Technology. Not a club — a system that identifies, stress-tests, and upgrades the top 1% of student builders.",
+        "A student-led research and curriculum initiative at SRM Institute of Science and Technology, studying how AI is transforming professional work and building learning paths to prepare students.",
     },
   ];
 }
@@ -30,17 +32,16 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Identity />
-        <EntryFunnel />
+        <Problem />
+        <Mission />
+        <WhatWeDo />
         <Tracks />
-        <TierSystem />
-        <ScoringSystem />
-        <WorkSystem />
-        <Culture />
-        <Financials />
-        <Incentives />
-        <Outcomes />
-        <CTA />
+        <StudentOutcomes />
+        <TechcoraPartnership />
+        <HowWeWork />
+        <Governance />
+        <FacultyAdvisor />
+        <Contact />
       </main>
     </>
   );
