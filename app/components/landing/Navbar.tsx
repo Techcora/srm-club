@@ -38,7 +38,7 @@ export function Navbar() {
             href="#hero"
             className="text-white font-bold text-lg tracking-widest"
           >
-            XXX
+            TVK SRM
           </a>
 
           {/* Desktop nav */}

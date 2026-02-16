@@ -9,7 +9,7 @@ export function Identity() {
           Not a Club. A Talent Forge.
         </h2>
         <p className="text-lg text-gray-400 max-w-3xl mb-16 leading-relaxed">
-          XXX exists for one purpose: to identify raw potential, stress-test it
+          TVK SRM exists for one purpose: to identify raw potential, stress-test it
           under real conditions, upgrade skills at an accelerated pace, and
           retain the best operators SRM produces.
         </p>

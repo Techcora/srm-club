@@ -13,7 +13,7 @@ export function Hero() {
         </p>
 
         <h1 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tighter leading-none mb-6">
-          XXX
+          Tech Visionary Knights SRM
         </h1>
 
         <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-emerald-400 tracking-wide mb-8">

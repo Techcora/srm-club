@@ -1,6 +1,6 @@
-# XXX — Build. Ship. Lead.
+# Tech Visionary Knights SRM — Build. Ship. Lead.
 
-Landing page for XXX, a talent accelerator club at SRM Institute of Science and Technology. An execution-driven talent forge that identifies, stress-tests, and upgrades the top 1% of student builders.
+Landing page for Tech Visionary Knights SRM, a talent accelerator club at SRM Institute of Science and Technology. An execution-driven talent forge that identifies, stress-tests, and upgrades the top 1% of student builders.
 
 ## Tech Stack
 

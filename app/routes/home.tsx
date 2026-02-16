@@ -15,7 +15,7 @@ import { CTA } from "../components/landing/CTA";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "XXX — Build. Ship. Lead. | SRM IST" },
+    { title: "Tech Visionary Knights SRM — Build. Ship. Lead. | SRM IST" },
     {
       name: "description",
       content:

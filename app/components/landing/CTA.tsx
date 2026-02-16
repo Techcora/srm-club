@@ -38,7 +38,7 @@ export function CTA() {
       <div className="max-w-5xl mx-auto mt-24 pt-8 border-t border-gray-800">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-600">
-            XXX — SRM Institute of Science and Technology
+            Tech Visionary Knights SRM — SRM Institute of Science and Technology
           </p>
           <p className="text-xs text-gray-700">
             Built by the club, for the club.
